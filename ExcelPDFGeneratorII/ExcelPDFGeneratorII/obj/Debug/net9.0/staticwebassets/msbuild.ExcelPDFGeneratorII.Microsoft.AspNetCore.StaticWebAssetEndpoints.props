@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ExcelPDFGeneratorII/images/logo.d235xfuixn.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d235xfuixn"},{"Name":"integrity","Value":"sha256-xVuibOtrvg0URWvNmVCCvb\u002BGP5QzkWMfxwwMtN1GvX4="},{"Name":"label","Value":"_content/ExcelPDFGeneratorII/images/logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1652"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xVuibOtrvg0URWvNmVCCvb\u002BGP5QzkWMfxwwMtN1GvX4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 14:39:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ExcelPDFGeneratorII/images/logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xVuibOtrvg0URWvNmVCCvb\u002BGP5QzkWMfxwwMtN1GvX4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1652"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xVuibOtrvg0URWvNmVCCvb\u002BGP5QzkWMfxwwMtN1GvX4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 14:39:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

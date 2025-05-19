@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Aegis Ultima Teknologi\\Tahap 1\\Task2\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ExcelPDFGeneratorII.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ExcelPDFGeneratorII.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ExcelPDFGeneratorII.props",
+      "PackagePath": "build\\ExcelPDFGeneratorII.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ExcelPDFGeneratorII.props",
+      "PackagePath": "buildMultiTargeting\\ExcelPDFGeneratorII.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ExcelPDFGeneratorII.props",
+      "PackagePath": "buildTransitive\\ExcelPDFGeneratorII.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

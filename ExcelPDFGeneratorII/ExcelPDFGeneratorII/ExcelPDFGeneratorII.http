@@ -1,0 +1,6 @@
+@ExcelPDFGeneratorII_HostAddress = http://localhost:5143
+
+GET {{ExcelPDFGeneratorII_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

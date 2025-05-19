@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "BOzeJkQwgnLr6CPRETpKMjGJl3GaIWGH3QttKDXbNCw=",
+  "Source": "ExcelPDFGeneratorII",
+  "BasePath": "_content/ExcelPDFGeneratorII",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ExcelPDFGeneratorII\\wwwroot",
+      "Source": "ExcelPDFGeneratorII",
+      "ContentRoot": "D:\\Aegis Ultima Teknologi\\Tahap 1\\Task2\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\wwwroot\\",
+      "BasePath": "_content/ExcelPDFGeneratorII",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Aegis Ultima Teknologi\\Tahap 1\\Task2\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\wwwroot\\images\\logo.png",
+      "SourceId": "ExcelPDFGeneratorII",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Aegis Ultima Teknologi\\Tahap 1\\Task2\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\wwwroot\\",
+      "BasePath": "_content/ExcelPDFGeneratorII",
+      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d235xfuixn",
+      "Integrity": "xVuibOtrvg0URWvNmVCCvb+GP5QzkWMfxwwMtN1GvX4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/logo.d235xfuixn.png",
+      "AssetFile": "D:\\Aegis Ultima Teknologi\\Tahap 1\\Task2\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xVuibOtrvg0URWvNmVCCvb+GP5QzkWMfxwwMtN1GvX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 14:39:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d235xfuixn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xVuibOtrvg0URWvNmVCCvb+GP5QzkWMfxwwMtN1GvX4="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.png",
+      "AssetFile": "D:\\Aegis Ultima Teknologi\\Tahap 1\\Task2\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xVuibOtrvg0URWvNmVCCvb+GP5QzkWMfxwwMtN1GvX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 14:39:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xVuibOtrvg0URWvNmVCCvb+GP5QzkWMfxwwMtN1GvX4="
+        }
+      ]
+    }
+  ]
+}

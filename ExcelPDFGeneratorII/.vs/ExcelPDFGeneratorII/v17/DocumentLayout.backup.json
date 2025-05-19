@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Aegis Ultima Teknologi\\Tahap 1\\Task2\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6A6117-33AD-4339-872A-D7D87D88170E}|ExcelPDFGeneratorII\\ExcelPDFGeneratorII.csproj|d:\\aegis ultima teknologi\\tahap 1\\task2\\excelpdfgeneratorii\\excelpdfgeneratorii\\excelpdfgeneratorii\\views\\pdfgenerator\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C6A6117-33AD-4339-872A-D7D87D88170E}|ExcelPDFGeneratorII\\ExcelPDFGeneratorII.csproj|solutionrelative:excelpdfgeneratorii\\views\\pdfgenerator\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6A6117-33AD-4339-872A-D7D87D88170E}|ExcelPDFGeneratorII\\ExcelPDFGeneratorII.csproj|d:\\aegis ultima teknologi\\tahap 1\\task2\\excelpdfgeneratorii\\excelpdfgeneratorii\\excelpdfgeneratorii\\controllers\\pdfgeneratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C6A6117-33AD-4339-872A-D7D87D88170E}|ExcelPDFGeneratorII\\ExcelPDFGeneratorII.csproj|solutionrelative:excelpdfgeneratorii\\controllers\\pdfgeneratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C6A6117-33AD-4339-872A-D7D87D88170E}|ExcelPDFGeneratorII\\ExcelPDFGeneratorII.csproj|d:\\aegis ultima teknologi\\tahap 1\\task2\\excelpdfgeneratorii\\excelpdfgeneratorii\\excelpdfgeneratorii\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C6A6117-33AD-4339-872A-D7D87D88170E}|ExcelPDFGeneratorII\\ExcelPDFGeneratorII.csproj|solutionrelative:excelpdfgeneratorii\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PDFGeneratorController.cs",
+              "DocumentMoniker": "D:\\Aegis Ultima Teknologi\\Tahap 1\\Task2\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\Controllers\\PDFGeneratorController.cs",
+              "RelativeDocumentMoniker": "ExcelPDFGeneratorII\\Controllers\\PDFGeneratorController.cs",
+              "ToolTip": "D:\\Aegis Ultima Teknologi\\Tahap 1\\Task2\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\Controllers\\PDFGeneratorController.cs",
+              "RelativeToolTip": "ExcelPDFGeneratorII\\Controllers\\PDFGeneratorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:33:07.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\Aegis Ultima Teknologi\\Tahap 1\\Task2\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "ExcelPDFGeneratorII\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\Aegis Ultima Teknologi\\Tahap 1\\Task2\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "ExcelPDFGeneratorII\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:32:44.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Aegis Ultima Teknologi\\Tahap 1\\Task2\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\Views\\PDFGenerator\\Index.cshtml",
+              "RelativeDocumentMoniker": "ExcelPDFGeneratorII\\Views\\PDFGenerator\\Index.cshtml",
+              "ToolTip": "D:\\Aegis Ultima Teknologi\\Tahap 1\\Task2\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\ExcelPDFGeneratorII\\Views\\PDFGenerator\\Index.cshtml",
+              "RelativeToolTip": "ExcelPDFGeneratorII\\Views\\PDFGenerator\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T12:30:11.671Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
