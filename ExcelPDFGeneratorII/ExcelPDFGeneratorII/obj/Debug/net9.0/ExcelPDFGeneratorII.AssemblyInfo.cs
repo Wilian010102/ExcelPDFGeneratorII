@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExcelPDFGeneratorII")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b1557120408f35472a78d292d7e9d9c56c3b618")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExcelPDFGeneratorII")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExcelPDFGeneratorII")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

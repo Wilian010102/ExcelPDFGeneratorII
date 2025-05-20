@@ -1,5 +1,9 @@
+using ExcelPDFGeneratorII.Interfaces;
+using ExcelPDFGeneratorII.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 // Add services to the container.
 
 builder.Services.AddControllers();

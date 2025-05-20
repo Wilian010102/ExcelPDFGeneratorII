@@ -1,9 +1,8 @@
 ﻿using ClosedXML.Excel;
-using ExcelPDFGeneratorII.Models;
+using ExcelPDFGeneratorII.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using PuppeteerSharp;
 using System.Text.Json;
-
 
 namespace ExcelPDFGeneratorII.Controllers
 {
@@ -11,33 +10,18 @@ namespace ExcelPDFGeneratorII.Controllers
     [ApiController]
     public class EmployeesController : ControllerBase
     {
-        [HttpPost("pdf-report")]
+        private readonly IEmployeeRepository _employeeRepository;
 
-        public async Task<IActionResult> GetEmployeesReport(IEnumerable<Employee> employees)
+        public EmployeesController(IEmployeeRepository employeeRepository)
         {
-            var options = new LaunchOptions
-            {
-                Headless = true,
-            };
-
-            var browserFetcher = new BrowserFetcher();
-            await browserFetcher.DownloadAsync();
-
-            using var browser = await Puppeteer.LaunchAsync(options);
-            using var page = await browser.NewPageAsync();
-            using var memoryStream = new MemoryStream();
-
-            var url = Url.ActionLink("Index", "PdfGenerator", new { model = JsonSerializer.Serialize(employees) });
-            await page.GoToAsync(url);
-
-            var pdfStream = await page.PdfDataAsync();
-
-            return File(pdfStream, "application/pdf", "EmployeesReport.pdf");
+            _employeeRepository = employeeRepository;
         }
 
-        [HttpPost("excel-report")]
-        public IActionResult GetExcelReport([FromBody] IEnumerable<Employee> employees)
+        [HttpGet("excel-report")]
+        public async Task<IActionResult> GetExcelReport()
         {
+            var employees = await _employeeRepository.GetAllEmployeesAsync();
+
             using var workbook = new XLWorkbook();
             var worksheet = workbook.Worksheets.Add("Employees");
 
@@ -67,5 +51,26 @@ namespace ExcelPDFGeneratorII.Controllers
                         "EmployeesReport.xlsx");
         }
 
+        [HttpGet("pdf-report")]
+        public async Task<IActionResult> GetPdfReport()
+        {
+            var employees = await _employeeRepository.GetAllEmployeesAsync();
+
+            var options = new LaunchOptions { Headless = true };
+            await new BrowserFetcher().DownloadAsync();
+
+            using var browser = await Puppeteer.LaunchAsync(options);
+            using var page = await browser.NewPageAsync();
+
+            var url = Url.ActionLink("Index", "PDFGenerator", new
+            {
+                model = JsonSerializer.Serialize(employees)
+            });
+
+            await page.GoToAsync(url);
+            var pdf = await page.PdfDataAsync();
+
+            return File(pdf, "application/pdf", "EmployeesReport.pdf");
+        }
     }
 }

@@ -3,32 +3,20 @@
     "ContainingType": "ExcelPDFGeneratorII.Controllers.EmployeesController",
     "Method": "GetExcelReport",
     "RelativePath": "api/Employees/excel-report",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "employees",
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExcelPDFGeneratorII.Models.Employee, ExcelPDFGeneratorII, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
     "ContainingType": "ExcelPDFGeneratorII.Controllers.EmployeesController",
-    "Method": "GetEmployeesReport",
+    "Method": "GetPdfReport",
     "RelativePath": "api/Employees/pdf-report",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "employees",
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExcelPDFGeneratorII.Models.Employee, ExcelPDFGeneratorII, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
